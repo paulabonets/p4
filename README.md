@@ -1,19 +1,18 @@
 # Práctica 4 - API REST con Spring Boot
 
-**Autor:** Paula Bonet  
-**Asignatura:** Programación de Aplicaciones Telemáticas  
+**Autor:** Paula Bonet Sánchez
 **Objetivo:** Crear una API REST con Spring Boot conectada a una base de datos H2 en memoria.
 
 ---
 
-## 🧩 Descripción del proyecto
+## Descripción del proyecto
 
-Esta API permite gestionar una lista de películas de Pedro Almodóvar.  
+Esta API permite gestionar una lista de películas, basandonos en mi práctica 2. 
 Incluye operaciones de creación, lectura, actualización y borrado (CRUD).
 
 ---
 
-## 🔗 Endpoints
+##Descripción de cada Endpoint
 
 | Método | Ruta                         | Cuerpo (JSON)                                       | Descripción                                 | Respuesta esperada                      |
 |--------|------------------------------|-----------------------------------------------------|---------------------------------------------|-----------------------------------------|
@@ -25,21 +24,8 @@ Incluye operaciones de creación, lectura, actualización y borrado (CRUD).
 
 ---
 
-## 🛠 Tecnologías utilizadas
+## Cómo ejecutar el proyecto
 
-- Java 21
-- Spring Boot 3.1.3
-- Spring Web
-- Spring Data JPA
-- H2 Database
-- Postman (para probar los endpoints)
-- HTML/CSS/JS (interfaz de la práctica 2 reutilizada)
-
----
-
-## 🚀 Cómo ejecutar el proyecto
-
-1. Clonar o abrir el proyecto en IntelliJ / Eclipse
-2. Asegurarse de tener Java 17 o superior
-3. Ejecutar la clase `PeliculasApiApplication`
+1. Abrir el proyecto en IntelliJ
+2. Ejecutar la clase `PeliculasApiApplication`
 4. Abrir el navegador en `http://localhost:8080/api/peliculas`
