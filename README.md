@@ -1,6 +1,7 @@
 # Práctica 4 - API REST con Spring Boot
 
 **Autor:** Paula Bonet Sánchez
+
 **Objetivo:** Crear una API REST con Spring Boot conectada a una base de datos H2 en memoria.
 
 ---
