@@ -12,8 +12,15 @@ Esta API permite gestionar una lista de películas, basandonos en mi práctica 2
 Incluye operaciones de creación, lectura, actualización y borrado (CRUD).
 
 ---
+## Cómo ejecutar el proyecto
 
-##Descripción de cada Endpoint
+1. Abrir el proyecto en IntelliJ
+2. Ejecutar la clase `PeliculasApiApplication`
+4. Abrir el navegador en `http://localhost:8080/api/peliculas`
+   
+---
+
+## Descripción de cada Endpoint
 
 | Método | Ruta                         | Cuerpo (JSON)                                       | Descripción                                 | Respuesta esperada                      |
 |--------|------------------------------|-----------------------------------------------------|---------------------------------------------|-----------------------------------------|
@@ -24,9 +31,17 @@ Incluye operaciones de creación, lectura, actualización y borrado (CRUD).
 | DELETE | `/api/peliculas/{id}`        | -                                                   | Elimina una película por su ID               | 204 No Content / 404 Not Found          |
 
 ---
+## Ejemplos de uso
 
-## Cómo ejecutar el proyecto
-
-1. Abrir el proyecto en IntelliJ
-2. Ejecutar la clase `PeliculasApiApplication`
-4. Abrir el navegador en `http://localhost:8080/api/peliculas`
+### GET `/api/peliculas`
+```json
+[
+  {
+    "id": 1,
+    "titulo": "Volver",
+    "anio": 2006,
+    "director": "Pedro Almodóvar",
+    "sinopsis": "Una historia de mujeres de varias generaciones",
+    "imagenUrl": "https://paulabonets.github.io/p2/img/volver.jpg"
+  }
+]
