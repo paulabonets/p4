@@ -1,8 +1,6 @@
-# Práctica 4 - API REST con Spring Boot
+# Práctica 4
 
-**Autor:** Paula Bonet Sánchez
-
-**Objetivo:** Crear una API REST con Spring Boot.
+Paula Bonet Sánchez
 
 ---
 
@@ -17,7 +15,8 @@ Incluye operaciones de creación, lectura, actualización y borrado (CRUD).
 
 1. Abrir el proyecto en IntelliJ
 2. Ejecutar la clase `PeliculasApiApplication`
-4. Abrir el navegador en `http://localhost:8080/api/peliculas`
+4. Abrir el navegador en `http://localhost:8080/api/peliculas` para visualizar la api
+5. Abrir en el navegador `http://localhost:8080/index.html`para visualizar la web (es en la sección de clásicas)
    
 ---
 
