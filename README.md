@@ -33,6 +33,14 @@ Incluye operaciones de creación, lectura, actualización y borrado (CRUD).
 
 ---
 ## Ejemplo de uso
+---
+
+La pelicula de Pulp Fiction debe aparecer en la web, en la seccion de clásicas. A parte de esta acción, se puede aplicar el ejemplo con cualquiera de los métodos indicados en la tabla.
+Adunto aquí imagenes de la web y de la api con la nueva película cargada:
+
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/92531304-557a-457d-b0c3-a504e720335b" />
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/0da77765-1f99-43b7-8a93-ae6b0fca6f98" />
 
 ### GET `/api/peliculas`
 Para comprobar que funciona, hay que abrir Postman y pegar lo siguiente:
@@ -45,10 +53,5 @@ Para comprobar que funciona, hay que abrir Postman y pegar lo siguiente:
   "imagenUrl": "https://static.posters.cz/image/750/posters/pulp-fiction-cover-i1288.jpg"
 }
 
----
 
-La pelicula de Pulp Fiction debe aparecer en la web, en la seccion de clásicas. A parte de esta acción, se puede aplicar el ejemplo con cualquiera de los métodos indicados en la tabla.
-Adunto aquí imagenes de la web y de la api con la nueva película cargada:
-<img width="956" alt="image" src="https://github.com/user-attachments/assets/92531304-557a-457d-b0c3-a504e720335b" />
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/0da77765-1f99-43b7-8a93-ae6b0fca6f98" />
 
