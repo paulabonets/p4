@@ -35,8 +35,8 @@ Incluye operaciones de creación, lectura, actualización y borrado (CRUD).
 ## Ejemplo de uso
 
 ### GET `/api/peliculas`
-```json
 Para comprobar que funciona, hay que abrir Postman y pegar lo siguiente:
+```json
 {
   "titulo": "Pulp Fiction",
   "anio": 1994,
@@ -44,6 +44,9 @@ Para comprobar que funciona, hay que abrir Postman y pegar lo siguiente:
   "sinopsis": "Dos matones, envueltos en una violencia espectacular e irónica",
   "imagenUrl": "https://static.posters.cz/image/750/posters/pulp-fiction-cover-i1288.jpg"
 }
+
+---
+
 La pelicula de Pulp Fiction debe aparecer en la web, en la seccion de clásicas. A parte de esta acción, se puede aplicar el ejemplo con cualquiera de los métodos indicados en la tabla.
 Adunto aquí imagenes de la web y de la api con la nueva película cargada:
 <img width="956" alt="image" src="https://github.com/user-attachments/assets/92531304-557a-457d-b0c3-a504e720335b" />
